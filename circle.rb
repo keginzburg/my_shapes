@@ -8,4 +8,8 @@ class Circle
   def area
     Math::PI * (@radius ** 2)
   end 
+
+  def roll
+    puts "Circles can roll, but so can spheres"
+  end
 end
